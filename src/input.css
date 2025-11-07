@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@keyframes fade {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+.animate-fade {
+    animation: fade 0.8s ease-out forwards;
+  }
+
+  .animate-fade-delay {
+  animation: fade 0.8s ease-out forwards;
+  animation-delay: 0.4s; /* wait until h1 is done */
+  opacity: 0; /* 👈 keeps it invisible during delay */
+}
+
+.animate-fade-delay1 {
+  animation: fade 0.8s ease-out forwards;
+  animation-delay: 0.8s; /* wait until h1 is done */
+  opacity: 0; /* 👈 keeps it invisible during delay */
+}
+
+.animate-fade-delay2 {
+  animation: fade 0.8s ease-out forwards;
+  animation-delay: 1s; /* wait until h1 is done */
+  opacity: 0; /* 👈 keeps it invisible during delay */
+}
+
+
+
+.btn{
+  @media (width >= 480px) {
+        display: block;
+    }
+}
+.hide-opt{
+  @media(width <= 480px ){
+    display: block;
+  }
+}
+
+.sixCard{
+  @media(width <= 340px){
+    font-size: x-small;
+    height: 250px;
+  }
+}
+
+.service{
+  @media(width <= 340px){
+    font-size: medium;
+  }
+}
+
+.cus-img{
+  @media(width>= 540px){
+    height: 280px;
+  }
+  @media(width>= 768px){
+    height: 360px;
+  }
+}

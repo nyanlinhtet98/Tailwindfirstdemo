@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first Demo</title>
+    <link href="./output.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<body class="">
+
+   
+    <!--nav-->
+    
+    <nav class="w-full h-full py-3 absolute top-0 z-10">
+        <div class="px-6 max-w-7xl mx-auto flex justify-between items-center xl:border-b-2 xl:border-b-gray-500 pb-2">
+             <!--left facebook twitter  telegram div-->
+                <div class="flex justify-center items-center gap-x-2 ">
+                    <div class="flex flex-row">  
+                        <div class="group peer p-1">
+                            <!--Facebook Icon-->
+                            <a href="https://www.facebook.com" class="" target="_blank" title="facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-7 lg:h-7 w-5 h-5 group-hover:rotate-y-[360deg] duration-300 group-hover:fill-blue-500" fill="#fff" width="800px" height="800px" viewBox="0 0 32 32">
+                                    <path d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"/>
+                                </svg>
+                            </a>
+                            
+                        </div>
+                        <!--facebook text-->
+                        <div class="relative opacity-0 peer-hover:opacity-100 flex justify-center items-center pointer-events-none">                            
+                            <a href="#" class="absolute top-0 -right-5 sm:text-sm text-xs mt-10 px-3 py-1 bg-sky-600 text-white font-semibold rounded-xs">Facebook</a>  
+                        </div>
+                    </div>
+                    <div class="flex flex-row">
+                        <div class="group peer p-1">
+                            <!--Twitter Icon-->
+                            <a href="https://www.twitter.com" target="_blank" title="twitter">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-7 lg:h-7 w-5 h-5 group-hover:fill-blue-500 group-hover:rotate-y-[360deg] duration-300" fill="#fff" width="800px" height="800px" viewBox="0 0 32 32">
+                                    <path d="M11.919 24.94c-2.548 0-4.921-.747-6.919-2.032a9.049 9.049 0 0 0 6.681-1.867 4.512 4.512 0 0 1-4.215-3.137c.276.054.559.082.848.082.412 0 .812-.056 1.193-.156a4.519 4.519 0 0 1-3.622-4.425v-.059a4.478 4.478 0 0 0 2.042.564 4.507 4.507 0 0 1-2.008-3.758c0-.824.225-1.602.612-2.268a12.811 12.811 0 0 0 9.303 4.715 4.517 4.517 0 0 1 7.692-4.115 9.107 9.107 0 0 0 2.866-1.094 4.542 4.542 0 0 1-1.983 2.498 9.08 9.08 0 0 0 2.592-.71 9.283 9.283 0 0 1-2.252 2.337c.008.193.014.388.014.583-.001 5.962-4.542 12.843-12.844 12.842"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <!--Twitter Text-->
+                        <div class="relative opacity-0 peer-hover:opacity-100 flex justify-center items-center pointer-events-none">                            
+                            <a href="#" class="absolute top-0 -right-5 sm:text-sm text-xs mt-10 px-3 py-1 bg-sky-600 text-white font-semibold rounded-xs">Twitter</a>  
+                        </div>
+                    </div>
+                    <div class="flex flex-row">
+                        <div class="group peer p-1">
+                            <!--IG icon-->
+                            <a href="https://www.instagram.com" target="_blank" title="instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-7 lg:h-7 w-5 h-5 group-hover:fill-pink-500 group-hover:rotate-y-[1turn] duration-300" fill="#fff" width="800px" height="800px" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M8,2 L16,2 C19.3137085,2 22,4.6862915 22,8 L22,16 C22,19.3137085 19.3137085,22 16,22 L8,22 C4.6862915,22 2,19.3137085 2,16 L2,8 C2,4.6862915 4.6862915,2 8,2 Z M8,4 C5.790861,4 4,5.790861 4,8 L4,16 C4,18.209139 5.790861,20 8,20 L16,20 C18.209139,20 20,18.209139 20,16 L20,8 C20,5.790861 18.209139,4 16,4 L8,4 Z M12,17 C9.23857625,17 7,14.7614237 7,12 C7,9.23857625 9.23857625,7 12,7 C14.7614237,7 17,9.23857625 17,12 C17,14.7614237 14.7614237,17 12,17 Z M12,15 C13.6568542,15 15,13.6568542 15,12 C15,10.3431458 13.6568542,9 12,9 C10.3431458,9 9,10.3431458 9,12 C9,13.6568542 10.3431458,15 12,15 Z M17,8 C16.4477153,8 16,7.55228475 16,7 C16,6.44771525 16.4477153,6 17,6 C17.5522847,6 18,6.44771525 18,7 C18,7.55228475 17.5522847,8 17,8 Z"/>
+                                </svg>                    
+                            </a>
+                        </div>
+                        <!--IG text-->
+                        <div class="relative opacity-0 peer-hover:opacity-100 flex justify-center items-center pointer-events-none">                            
+                            <a href="#" class="absolute top-0 -right-5 sm:text-sm text-xs mt-10 px-3 py-1 bg-sky-600 text-white font-semibold rounded-xs">Instagram</a>  
+                        </div>
+                    </div>
+                </div>     
+            <!--right menu div-->
+           <div class="flex justify-center items-center font-semibold text-gray-300">
+                <ul class="flex flex-nowrap items-center gap-x-4 sm:gap-x-8">
+                    <li class="hidden sm:block relative py-2">
+                        
+                        <a href="./index.html" class="py-3 px-1 hover:text-white after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[4px] after:bg-white after:w-0 hover:after:w-full after:transition-all after:duration-300">Home</a>
+                        
+                    </li>
+                    <li class="hidden sm:block relative py-2 group">
+                            <div class="flex items-center">
+                                <a href="#" class="px-1 group-hover:text-white after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[4px] after:bg-white after:w-0 group-hover:after:w-full after:transition-all after:duration-300">About</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-4 translate-y-0.5">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </div>
+                         <!-- Dropdown menu -->
+                            <ul class="absolute md:w-50 w-30 left-0 mt-2.5 bg-white text-black shadow-lg md:rounded-sm rounded-xs opacity-0 invisible 
+                                    group-hover:opacity-100 group-hover:visible transition-all duration-300 md:text-[16px] text-xs">
+                                <li class="md:pt-5 pt-2">
+                                    <a href="#" class="block px-4 hover:translate-x-1 hover:text-blue-800 transition-all duration-200 text-nowrap">
+                                        Our Team
+                                    </a>
+                                </li>
+                                <li class="py-1">
+                                    <a href="#" class="block px-4 hover:translate-x-1 hover:text-blue-800 transition-all duration-200">
+                                        History
+                                    </a>
+                                </li>
+                                <li class="md:pb-5 pb-2">
+                                    <a href="#" class="block px-4 hover:translate-x-1 hover:text-blue-800 transition-all duration-200">
+                                        Careers
+                                    </a>
+                                </li>
+                            </ul>
+                    </li>
+                    <li class="hidden md:block relative py-2 group">
+                        <div class="flex items-center">
+                            <a href="#" class="px-1 group-hover:text-white after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[4px] after:bg-white after:w-0 group-hover:after:w-full after:transition-all after:duration-300">Services</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-4 translate-y-0.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </div>                        
+                        <!--Dropdown menu-->
+                        <ul class="absolute w-50 left-0 mt-2.5 bg-white text-black shadow-lg rounded-sm opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 overflow-hidden">
+                            <li class="pt-5">
+                                <a href="#" class="block px-4 hover:translate-x-1 hover:text-blue-800 transition-all duration-300">Service 1</a>
+                            </li>
+                            <li class="py-1">
+                                <a href="#" class="block px-4 hover:translate-x-1 hover:text-blue-800 transition-all duration-300">Service 2</a>
+                            </li>
+                            <li class="pb-5">
+                                <a href="#" class="block px-4 hover:translate-x-1 hover:text-blue-800 transition-all duration-300">Service 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="hidden md:block relative py-2 group">
+                        <a href="#" class="px-1 group-hover:text-white after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[4px] after:bg-white after:w-0 hover:after:w-full after:transition-all after:duration-300">FAQ's</a>
+                    
+                    </li>
+                    <li class="hidden lg:block relative py-2 group">
+                        <div class="flex items-center">
+                            <a href="#" class="px-1 group-hover:text-white after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[4px] after:bg-white after:w-0 group-hover:after:w-full after:transition-all after:duration-300">Blog</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-4 translate-y-0.5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </div>
+                        <!--Dropdown menu-->
+                        <ul class="absolute w-50 left-0 mt-2.5 bg-white text-black shadow-lg rounded-sm opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 overflow-hidden">
+                            <li class="pt-5">
+                                <a href="#" class="block px-4 hover:translate-x-1 hover:text-blue-800 transition-all duration-300">Blog</a>
+                            </li>
+                            <li class="py-1">
+                                <a href="#" class="block px-4 hover:translate-x-1 hover:text-blue-800 transition-all duration-300">Standard</a>
+                            </li>
+                            <li class="py-1">
+                                <a href="#" class="block px-4 hover:translate-x-1 hover:text-blue-800 transition-all duration-300">Image Gallery</a>
+                            </li>
+                            <li class="py-1">
+                                <a href="#" class="block px-4 hover:translate-x-1 hover:text-blue-800 transition-all duration-300">Audio Player</a>
+                            </li>
+                            <li class="pb-5">
+                                <a href="#" class="block px-4 hover:translate-x-1 hover:text-blue-800 transition-all duration-300">Video player</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li class="relative py-2">
+                        
+                        <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+                        </a>
+                    </li>
+                    <li class="relative group">
+                        <!-- Cart icon -->
+                        <button class="relative p-2 cursor-pointer z-50">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25h11.25M7.5 14.25l-1.5-6h13.5l-1.5 6M7.5 14.25L5.25 6.75M16.5 19.5a1.5 1.5 0 11-3.001-.001A1.5 1.5 0 0116.5 19.5zm-7.5 0a1.5 1.5 0 11-3.001-.001A1.5 1.5 0 019 19.5z" />
+                            </svg>
+                            <!-- Cart count -->
+                            <span class="absolute -top-1 -right-1 bg-blue-500 text-white text-xs rounded-full px-1">0</span>
+                        </button>
+
+                        <!-- Dropdown -->
+                        <div class="bock absolute right-0 md:mt-4 mt-1 md:w-64 w-48 bg-white shadow-lg rounded-md border border-gray-200 
+                                    opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-100">
+                            
+                            <!-- Arrow on top -->
+                            <div class="absolute top-0 right-4 md:-mt-2 -mt-1 md:w-4 md:h-4 w-3 h-3 bg-white border-l border-t border-gray-200 rotate-45"></div>
+
+                            <div class="md:p-6 p-3 md:m-5 m-4 flex flex-col items-center text-gray-600 border border-gray-200">
+                                <!-- Empty cart icon -->
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="md:w-12 md:h-12 w-6 h-6 mb-2 text-gray-400">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293a1 1 0 001.415 1.415L7 15.414m10-2.414l2.293 2.293a1 1 0 01-1.415 1.415L17 15.414m-5 5a1 1 0 11-2 0 1 1 0 012 0z" />
+                                </svg>
+                                <p class="md:text-sm text-xs">No products in the cart.</p>
+                            </div>
+                        </div>
+                    </li>
+
+                    
+                    <button id="menu-btn" class="md:hidden cursor-pointer md:bg-transparent bg-white hover:bg-blue-600 md:hover:bg-transparent rounded-xs duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="md:size-8 size-6 md:stroke-white stroke-blue-600 hover:stroke-white p-1 duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+
+                    </button>
+                    
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div id="menu" class="hidden w-2/3 min-h-screen absolute top-0 right-0 bg-blue-950  text-sm font-semibold text-gray-300 shadow-lg translate-x-full transition-transform duration-300 z-50">
+            <ul class="">
+                <li class="group block px-4 py-3 cursor-pointer border-b border-gray-700 hover:border-l-4 hover:border-l-white hover:text-white hover:bg-blue-900/95 hover:border-b-blue-900/95 transition-all ease-in-out duration-75"><span class="group-hover:mx-2 duration-75">Home</span></li>
+                <li class="group block px-4 py-3 cursor-pointer border-b border-gray-700 hover:border-l-4 hover:border-l-white hover:text-white hover:bg-blue-900/95 hover:border-b-blue-900/95 transition-all ease-in-out duration-75"><span class="group-hover:mx-2 duration-75">About</span></li>
+                <li class="group block px-4 py-3 cursor-pointer border-b border-gray-700 hover:border-l-4 hover:border-l-white hover:text-white hover:bg-blue-900/95 hover:border-b-blue-900/95 transition-all ease-in-out duration-75"><span class="group-hover:mx-2 duration-75">Services</span></li>
+                <li class="group block px-4 py-3 cursor-pointer border-b border-gray-700 hover:border-l-4 hover:border-l-white hover:text-white hover:bg-blue-900/95 hover:border-b-blue-900/95 transition-all ease-in-out duration-75"><span class="group-hover:mx-2 duration-75">FAQ's</span></li>
+                <li class="group block px-4 py-3 cursor-pointer border-b border-gray-700 hover:border-l-4 hover:border-l-white hover:text-white hover:bg-blue-900/95 hover:border-b-blue-900/95 transition-all ease-in-out duration-75"><span class="group-hover:mx-2 duration-75">Contact</span></li>
+                
+            </ul>
+            <div class="index absolute top-0 -left-14  hover:rotate-90 duration-200">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-12 p-2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+            </div>
+        </div>
+
+         <!-- Overlay (dark background) -->
+            <div id="overlay" class="hidden fixed inset-0 bg-black bg-opacity-50 md:bg-opacity-20 z-40 transition-opacity duration-300"></div>
+
+    </nav>
+
+   
+
+
+    <!--bg Section-->
+    <div id="bg-section" class="flex md:min-h-screen min-h-120 overflow-hidden relative">
+        <div id="slide1" class="w-full bg-[url('../img/bg.png')] bg-cover bg-center absolute inset-0">
+            
+        </div>
+        <div id="todown" class="w-full md:mt-20 text-center absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
+                <div class="flex flex-col justify-center items-center">
+                    <h1 class="my-2 lg:text-6xl md:text-4xl text-[28px] px-0 font-bold select-none animate-fade">We Plan, We Execute, You Celebrate</h1>
+                    <p class="md:my-4 lg:text-3xl md:text-2xl sm:text-xl text-sm select-none animate-fade-delay">We are advertising technology experts that drive business results.</p>
+                
+                    <a href="#" class="text-center md:text-xl text-[10px] md:mt-18 mt-8 mb-2 border-2 border-white md:rounded-sm rounded-[3px] md:py-3 md:px-5 py-1 px-2 hover:bg-white hover:text-blue-900 duration-300 animate-fade-delay1">Start Your New Project</a>
+                    <span class="md:mt-5 text-gray-300 md:text-sm text-[8px] select-none animate-fade-delay2">Read More About Plans</span>
+                </div>
+            </div>
+       </div>
+        
+           
+    </div>
+   
+    <!-- second 6-card section -->
+    <section class="w-full bg-gray-100 md:relative flex items-center justify-center md:pb-60 pb-16">
+        <div class="max-w-7xl mx-auto md:-mt-25 w-full flex items-center py-12 gap-y-6">
+            <div class="w-full flex flex-wrap justify-center items-center gap-6 lg:px-4 px-6">
+                <!--first card-->
+                <div class="sixCard xl:w-sm lg:w-[305px] w-full lg:h-70 h-80 overflow-hidden group duration-300 bg-[url('../img/background2.jpg')] bg-cover shadow-md flex md:justify-start justify-center items-center">
+                    
+                    <div class="max-w-[150px] text-center flex flex-col gap-y-12">
+                        <h4 class="md:text-lg text-[16px] text-white">OUR SERVICES</h4>
+                        <h1 class="md:text-4xl text-3xl text-white font-bold">WHAT CAN WE DO?</h1>
+                    </div>
+                </div>
+                <!-- second card -->
+                <div class="sixCard relative xl:w-sm lg:w-[305px] w-full lg:h-70 h-80 shadow-md bg-gray-50 flex md:justify-start justify-center items-center hover:scale-105 duration-300">
+                    <div class="w-full px-10 flex flex-col md:text-left text-center justify-between md:items-start items-center gap-y-15">
+                        <!--Group Team Svg-->
+                       <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="size-20" fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" viewBox="0 0 496 496" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path d="M496,286.216c0-28.064-15.984-52.624-40-64.48V96c0-52.936-43.064-96-96-96c-52.936,0-96,43.064-96,96v9.456    c-10.12-1.728-20.64-1.912-31.216-0.272c-0.568,0.088-1.128,0.24-1.696,0.336C231.64,102.384,232,99.216,232,96V64    c0-12.656-9.84-23.056-22.28-23.936C193.544,15.232,165.712,0,136,0C87.48,0,48,39.48,48,88v8c0,18.28,9.128,35.352,24,45.768    v0.456c0,20.16,9.392,38.144,24,49.88v17.128L60.168,215.2C25.304,221,0,250.872,0,286.216V352h141.504    C114.264,362.696,96,388.848,96,418.912V496h304v-77.088c0-30.064-18.264-56.216-45.504-66.912H496V286.216z M280,96    c0-44.112,35.888-80,80-80s80,35.888,80,80v120.08c-1.384-0.312-2.752-0.648-4.168-0.888L400,209.224v-17.128    c14.608-11.744,24-29.72,24-49.88l-0.056-50.688L412.6,96.752C412.44,96.832,396.456,104,360,104s-52.44-7.168-52.536-7.208    L296,91.296v25.656c-5.08-2.936-10.456-5.344-16-7.312V96z M331.344,152.496c-5.2-9.128-11.784-17.12-19.344-23.896v-13.64    c9.512,2.392,25.2,5.04,48,5.04s38.488-2.648,48-5.04v27.256c0,26.472-21.528,48-48,48c-2.68,0-5.344-0.296-8-0.752V177.68    C352,165.24,343.112,154.848,331.344,152.496z M345.04,241.824C349.488,231.192,352,219.736,352,208v-2.36    c2.656,0.336,5.328,0.584,8,0.584c8.488,0,16.584-1.696,24-4.712v13.2l-24,72L345.04,241.824z M345.696,294.392l-21.912-21.912    c3.944-3.664,7.44-7.704,10.616-11.984L345.696,294.392z M397.432,225.008l12.64,2.104l5.24,26.256l-41.008,41.016    L397.432,225.008z M235.216,120.992c34.488-5.344,68.192,11.832,83.968,42.648l2.24,4.36h4.888c5.344,0,9.688,4.344,9.688,9.68    V208c0,16.512-5.824,32.448-16.008,45.136l-0.04-49.08l-11.056,4.568C308.72,208.704,290.552,216,248,216    s-60.72-7.296-60.848-7.352L176,203.872v30.696c-6.472-13.448-9.184-28.576-7.48-43.808    C172.44,155.688,200.488,126.352,235.216,120.992z M158.632,234.528c1.808,4.672,3.904,9.232,6.432,13.584l-14.112-8.472    L158.632,234.528z M136.28,230.2L112,212v-10.496c7.416,3.016,15.512,4.712,24,4.712c5.536,0,10.96-0.792,16.248-2.2    c0.216,4.864,0.736,9.688,1.672,14.424L136.28,230.2z M168.904,269.064l7.84,4.704c2.36,17.296,10.864,32.616,23.256,43.744V336    h-32.936l-6.76-54.04L168.904,269.064z M206.024,352.672l27.992,22.392l-23.592,14.16l-21.704-32.56L206.024,352.672z     M216,340.152V328.4c9.656,4.816,20.496,7.6,32,7.6c11.504,0,22.344-2.776,32-7.6v11.752l-32,25.6L216,340.152z M289.976,352.664    l17.304,3.992l-21.704,32.56l-23.592-14.16L289.976,352.664z M248,320c-30.872,0-56-25.128-56-56v-37.328    c10.456,2.44,28.616,5.328,56,5.328c27.384,0,45.544-2.888,56-5.328V264C304,294.872,278.872,320,248,320z M72,91.296v28.584    c-5.088-6.808-8-15.16-8-23.88v-8c0-39.704,32.296-72,72-72c25.552,0,49.424,13.8,62.288,36.008L200.6,56h7.4c4.416,0,8,3.584,8,8    v32c0,5.016-1.008,9.904-2.88,14.608c-4.552,1.8-8.936,3.952-13.136,6.416l-0.032-25.488l-11.344,5.224    C188.44,96.832,172.456,104,136,104s-52.44-7.168-52.536-7.208L72,91.296z M88,142.216V114.96c9.512,2.392,25.2,5.04,48,5.04    s38.488-2.648,48-5.04v13.72c-16.6,14.984-28.04,35.616-31.08,58.368c-5.44,2.072-11.104,3.176-16.92,3.176    C109.528,190.216,88,168.688,88,142.216z M101.936,224.448l19.744,14.808l-22.936,13.768l-15.296-25.488L101.936,224.448z     M104.936,336H64v-24H48v24H16v-49.784c0-27.496,19.68-50.728,46.792-55.24l3.696-0.616l26.768,44.616l9.84-5.904l8.592,12.888    L104.936,336z M121.056,336l7.24-57.96l-11.472-17.208L136,249.328l19.168,11.496l-11.472,17.208l7.24,57.968H121.056z     M216.84,480H160v-40h-16v40h-32v-61.088c0-26.232,17.848-48.672,43.408-54.56l16.648-3.84l33.52,50.272l9.52-5.712l8.632,12.944    L216.84,480z M263.064,480h-30.12l7.336-66.016l-11.44-17.16L248,385.328l19.168,11.496l-11.44,17.16L263.064,480z M384,418.912    V480h-32v-40h-16v40h-56.84l-6.888-61.984l8.632-12.944l9.52,5.712l33.52-50.272l16.648,3.84    C366.152,370.24,384,392.68,384,418.912z M480,336h-32v-24h-16v24H296v-18.488c9.032-8.112,16-18.448,20.04-30.168L360,331.312    l72.688-72.68l-5.744-28.704l6.264,1.048c27.112,4.52,46.792,27.752,46.792,55.24V336z"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="xl:w-full lg:w-auto w-full flex flex-col gap-y-4">
+                            <p class="text-gray-400">FINANCIAL FUNCTIONS</p>
+                            <div class="w-full group flex md:justify-between justify-center items-center text-nowrap cursor-pointer">
+                                <a href="#" class="service font-bold text-xl group-hover:text-blue-800/95">ACCOUNTING SERVICES</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 hidden md:block group-hover:stroke-blue-800 group-hover:translate-x-2 duration-300">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Third card -->
+                <div class="sixCard relative xl:w-sm lg:w-[305px] w-full lg:h-70 h-80 shadow-md bg-gray-50 flex md:justify-start justify-center items-center hover:scale-105 duration-300">
+                    <div class="w-full px-10 flex flex-col md:text-left text-center justify-between md:items-start items-center gap-y-15">
+                        <!--Target Svg-->
+                       <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="size-20" width="800px" height="800px" viewBox="0 0 60 60" version="1.1">
+                                
+                                <title>target</title>
+                                <desc>Created with Sketch.</desc>
+                                <defs>
+
+                                    </defs>
+                                        <g id="People" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Icon-14" fill="#000000">
+                                                <path d="M10,10 L7.414,10 L3.414,6 L5,6 C5.553,6 6,5.552 6,5 L6,3.414 L10,7.414 L10,10 Z M30,0 C23.354,0 16.914,2.216 11.677,6.263 L5.707,0.293 C5.421,0.007 4.991,-0.077 4.617,0.076 C4.243,0.231 4,0.596 4,1 L4,4 L1,4 C0.596,4 0.23,4.244 0.076,4.617 C-0.079,4.991 0.007,5.421 0.293,5.707 L6.293,11.707 C6.48,11.895 6.734,12 7,12 L10.586,12 L29.293,30.707 C29.488,30.902 29.744,31 30,31 C30.256,31 30.512,30.902 30.707,30.707 C31.098,30.316 31.098,29.684 30.707,29.293 L27.94,26.527 C28.522,26.187 29.205,26 30,26 C32.206,26 34,27.794 34,30 C34,32.206 32.206,34 30,34 C27.794,34 26,32.206 26,30 C26,29.448 25.553,29 25,29 C24.447,29 24,29.448 24,30 C24,33.309 26.691,36 30,36 C33.309,36 36,33.309 36,30 C36,26.691 33.309,24 30,24 C28.655,24 27.462,24.372 26.488,25.074 L22.256,20.842 C24.42,19.007 27.131,18 30,18 C36.617,18 42,23.383 42,30 C42,36.617 36.617,42 30,42 C23.383,42 18,36.617 18,30 C18,28.181 18.41,26.417 19.219,24.759 C19.461,24.262 19.255,23.664 18.759,23.421 C18.261,23.179 17.663,23.387 17.422,23.882 C16.479,25.816 16,27.874 16,30 C16,37.72 22.28,44 30,44 C37.72,44 44,37.72 44,30 C44,22.28 37.72,16 30,16 C26.597,16 23.387,17.218 20.842,19.428 L16.601,15.187 C20.285,11.848 24.997,10 30,10 C41.028,10 50,18.972 50,30 C50,41.028 41.028,50 30,50 C18.972,50 10,41.028 10,30 C10,26.085 11.141,22.286 13.298,19.013 C13.602,18.552 13.475,17.932 13.014,17.628 C12.551,17.324 11.932,17.453 11.628,17.913 C9.255,21.513 8,25.693 8,30 C8,42.131 17.869,52 30,52 C42.131,52 52,42.131 52,30 C52,17.869 42.131,8 30,8 C24.463,8 19.251,10.057 15.187,13.773 L12,10.586 L12,8.57 C17.04,4.333 23.411,2 30,2 C45.439,2 58,14.561 58,30 C58,45.439 45.439,58 30,58 C14.561,58 2,45.439 2,30 C2,24.707 3.488,19.551 6.305,15.09 C6.6,14.624 6.46,14.006 5.993,13.711 C5.525,13.417 4.909,13.557 4.613,14.023 C1.596,18.803 -1.21569421e-14,24.328 -1.21569421e-14,30 C-1.21569421e-14,46.542 13.458,60 30,60 C46.542,60 60,46.542 60,30 C60,13.458 46.542,0 30,0 L30,0 Z" id="target"></path>
+                                            </g>
+                                        </g>
+                            </svg>
+                        </div>
+                        <div class="xl:w-full lg:w-auto w-full flex flex-col gap-y-4">
+                            <p class="text-gray-400">MATERIAL DISTRIBUTION</p>
+                            <div class="w-full group flex md:justify-between justify-center items-center text-nowrap cursor-pointer">
+                                <a href="#" class="service font-bold text-xl group-hover:text-blue-800/95">PURCHASING SERVICES</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 hidden md:block group-hover:stroke-blue-800 group-hover:translate-x-2 duration-300">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                 <!-- Fourth card -->
+                <div class="sixCard relative xl:w-sm lg:w-[305px] w-full lg:h-70 h-80 shadow-md bg-gray-50 flex md:justify-start justify-center items-center hover:scale-105 duration-300">
+                    <div class="w-full px-10 flex flex-col md:text-left text-center justify-between md:items-start items-center gap-y-15">
+                        <!--Light Bulb Svg-->
+                       <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="size-20" fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" viewBox="0 0 311.633 311.633" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <path d="M157.727,37.75c-50.524,0-91.632,41.1-91.632,91.624c0,33.772,18.332,64.42,48.004,80.5l-1.7,14.024     c0,8.176,4.104,15.4,10.352,19.748c-4.396,2.548-7.416,7.376-7.416,12.972c0,5.756,3.188,10.704,7.796,13.184     c-2.424,2.568-3.94,6.004-3.94,9.804c0,7.896,6.428,14.328,14.328,14.328h0.472c-0.004,0.044-0.024,0.08-0.024,0.124     c0,9.856,11.084,17.576,25.224,17.576c5.54,0,10.784-1.204,15.16-3.472c1.532-0.788,2.128-2.672,1.332-4.204     c-0.792-1.524-2.664-2.136-4.204-1.332c-3.444,1.78-7.808,2.768-12.288,2.768c-10.292,0-18.984-5.192-18.984-11.34     c0-0.044-0.024-0.08-0.028-0.124h41.748c7.896,0,14.328-6.428,14.328-14.328c0-7.008-5.068-12.832-11.724-14.064     c-0.38-0.168-0.796-0.264-1.24-0.264h-1.36h-48.408h-3.86c-4.46,0-8.088-3.884-8.088-8.66c0-4.78,3.628-8.664,8.088-8.664h6.788     h42.54h6.792c4.46,0,8.088,3.884,8.088,8.664c0,2.508,0,2.508-1.748,4.924c-1.008,1.392-0.696,3.344,0.7,4.352     c1.388,1.004,3.34,0.696,4.352-0.7c2.716-3.748,2.936-4.392,2.936-8.58c0-8.216-6.428-14.904-14.328-14.904h-6.792h-42.54     c-9.824,0-17.816-7.996-17.844-17.44l1.936-15.78l-1.672-3.152c-28.708-14.7-46.536-43.808-46.536-75.96     c0-47.084,38.304-85.388,85.392-85.388c47.084,0,85.384,38.304,85.384,85.388c0,32.148-17.832,61.26-46.532,75.972l-1.672,3.156     l1.908,15.396c0,4.784-1.892,9.288-5.328,12.672c-1.228,1.208-1.24,3.184-0.032,4.408c1.208,1.224,3.184,1.24,4.408,0.032     c4.64-4.572,7.196-10.648,7.168-17.492l-1.672-13.648c29.66-16.084,47.992-46.728,47.992-80.5     C249.351,78.854,208.247,37.75,157.727,37.75z M133.523,271.521h48.408c4.46,0,8.088,3.628,8.088,8.088s-3.628,8.088-8.088,8.088     h-48.408c-4.46,0-8.088-3.628-8.088-8.088C125.435,275.15,129.063,271.521,133.523,271.521z"/>
+                                            <path d="M195.627,177.769c1.18-0.288,1.904-1.476,1.616-2.66c-0.288-1.18-1.496-1.904-2.656-1.616     c-4.808,1.18-10.2-0.456-14.416-4.352c-0.004-0.008-0.012-0.016-0.02-0.02c3.548-4.672,5.24-10.444,4.664-15.988     c-0.312-2.972-1.32-5.004-3.08-6.212c-1.66-1.136-3.628-1.312-5.54-0.496c-2.82,1.204-5.268,4.56-5.824,7.976     c-0.82,5.024,0.608,10.28,3.864,14.684c-2.536,2.276-5.544,3.64-8.672,3.904c-3.52,0.3-7.184-1.08-10.092-3.66     c2.324-3.8,3.736-7.808,4.588-11.14c1.012-3.944,0.5-6.868-1.512-8.692c-1.448-1.308-3.332-1.736-5.296-1.216     c-2.82,0.752-5.468,3.396-6.44,6.42c-1.6,4.94-0.484,10.388,3.044,15.008c-1.312,1.652-2.856,3.18-4.684,4.464     c-0.248,0.176-0.508,0.344-0.76,0.504c-1.952-5.3-4.5-10.376-7.78-15.156c-3.868-5.624-7.572-6.332-10.004-5.912     c-1.548,0.252-3.036,1.04-4.436,2.328c-2.804,2.596-4.272,6.516-4.012,10.756c0.288,4.788,2.636,9.22,6.276,11.856     c4.78,3.456,11.296,4.172,17.324,2.192c4.944,16.716,4.384,35.608,2.752,54.052c-0.108,1.212,0.788,2.28,2,2.384     c0.064,0.004,0.128,0.008,0.196,0.008c1.124,0,2.084-0.864,2.188-2.008c1.692-19.112,2.244-38.728-3.072-56.232     c0.636-0.36,1.256-0.752,1.86-1.176c2.02-1.416,3.744-3.072,5.212-4.848c3.752,3.172,8.484,4.82,13.02,4.448     c4.1-0.348,7.992-2.1,11.24-5.016c0.004,0.004,0.004,0.004,0.008,0.008C182.479,177.269,189.371,179.285,195.627,177.769z      M127.031,174.985c-2.548-1.844-4.26-5.12-4.464-8.556c-0.18-2.956,0.748-5.532,2.612-7.26c0.74-0.684,1.488-1.104,2.16-1.22     c0.144-0.02,0.28-0.032,0.416-0.032c2.1,0,4.16,2.524,5.244,4.1c3.132,4.556,5.552,9.428,7.396,14.532     C135.695,178.07,130.615,177.573,127.031,174.985z M152.463,165.75c-1.928-3.136-2.468-6.588-1.46-9.696     c0.508-1.58,2.028-3.16,3.388-3.52c0.18-0.048,0.336-0.072,0.468-0.072c0.352,0,0.568,0.14,0.732,0.292     c0.688,0.624,0.76,2.168,0.208,4.34C155.131,159.701,154.087,162.773,152.463,165.75z M174.715,155.109     c0.312-1.904,1.784-4.028,3.212-4.64c0.256-0.112,0.472-0.156,0.652-0.156c0.28,0,0.492,0.108,0.672,0.232     c0.612,0.42,1.02,1.472,1.192,3.044c0.42,4.064-0.772,8.456-3.224,12.072C175.055,162.393,174.139,158.654,174.715,155.109z"/>
+                                            <path d="M179.407,178.958c-8.268,18.016-10.476,37.244-6.772,56.708c0.528,2.78,4.772,1.604,4.244-1.168     c-3.464-18.196-1.408-36.46,6.328-53.316C184.379,178.621,180.587,176.381,179.407,178.958z"/>
+                                            <path d="M194.783,61.734c-2.456-1.416-4.676,2.384-2.22,3.8c21.544,12.404,33.632,35.796,31.484,60.532     c-0.248,2.82,4.156,2.804,4.4,0C230.723,99.838,217.571,74.854,194.783,61.734z"/>
+                                            <path d="M225.675,149.149c2.28-4.128,2.964-8.608,2.172-13.24c-0.476-2.784-4.716-1.604-4.244,1.172     c0.588,3.428-0.056,6.816-1.728,9.848C220.503,149.414,224.303,151.633,225.675,149.149z"/>
+                                            <path d="M93.779,90.149c-6.652,10.196-10.204,21.604-10.616,33.768c-0.096,2.832,4.304,2.828,4.4,0     c0.388-11.452,3.756-21.948,10.016-31.544C99.127,89.993,95.319,87.786,93.779,90.149z"/>
+                                            <path d="M83.503,134.878c-1,5.444-0.056,10.808,2.96,15.476c1.532,2.368,5.344,0.168,3.8-2.22     c-2.356-3.644-3.304-7.796-2.516-12.088C88.255,133.278,84.015,132.089,83.503,134.878z"/>
+                                            <path d="M151.571,16.086V2.125c0-2.832-4.4-2.836-4.4,0v13.96C147.171,18.917,151.571,18.922,151.571,16.086z"/>
+                                            <path d="M265.939,55.297c-5.264,3.5-10.532,7-15.796,10.5c-2.348,1.56-0.148,5.376,2.22,3.8c5.264-3.5,10.532-7,15.796-10.5     C270.507,57.537,268.307,53.721,265.939,55.297z"/>
+                                            <path d="M46.231,81.534c-2.008-2.004-5.12,1.104-3.112,3.112c3.724,3.72,7.448,7.444,11.168,11.168     c2.008,2.004,5.12-1.104,3.112-3.112C53.675,88.982,49.955,85.258,46.231,81.534z"/>
+                                            <path d="M93.171,45.018c1.584,2.328,5.4,0.128,3.8-2.22c-2.832-4.16-5.66-8.324-8.496-12.484     c-1.584-2.328-5.396-0.132-3.796,2.22C87.511,36.693,90.343,40.857,93.171,45.018z"/>
+                                            <path d="M210.915,38.549c2.684-3.344,5.364-6.692,8.048-10.036c1.756-2.188-1.34-5.32-3.112-3.112     c-2.684,3.348-5.364,6.692-8.048,10.036C206.047,37.625,209.143,40.758,210.915,38.549z"/>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="xl:w-full lg:w-auto w-full flex flex-col gap-y-4">
+                            <p class="text-gray-400">SAFEGUARD ASSETS</p>
+                            <div class="group flex md:justify-between justify-center items-center text-nowrap cursor-pointer">
+                                <a href="#" class="service font-bold text-xl group-hover:text-blue-800/95">INTERNAL CONTROLS</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 hidden md:block group-hover:stroke-blue-800 group-hover:translate-x-2 duration-300">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5th card -->
+                <div class="sixCard relative xl:w-sm lg:w-[305px] w-full lg:h-70 h-80 shadow-md bg-gray-50 flex md:justify-start justify-center items-center hover:scale-105 duration-300">
+                    <div class="w-full px-10 flex flex-col md:text-left text-center justify-between md:items-start items-center gap-y-15">
+                        <!--Group Team Svg-->
+                       <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="size-20" fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" viewBox="0 0 496 496" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path d="M496,286.216c0-28.064-15.984-52.624-40-64.48V96c0-52.936-43.064-96-96-96c-52.936,0-96,43.064-96,96v9.456    c-10.12-1.728-20.64-1.912-31.216-0.272c-0.568,0.088-1.128,0.24-1.696,0.336C231.64,102.384,232,99.216,232,96V64    c0-12.656-9.84-23.056-22.28-23.936C193.544,15.232,165.712,0,136,0C87.48,0,48,39.48,48,88v8c0,18.28,9.128,35.352,24,45.768    v0.456c0,20.16,9.392,38.144,24,49.88v17.128L60.168,215.2C25.304,221,0,250.872,0,286.216V352h141.504    C114.264,362.696,96,388.848,96,418.912V496h304v-77.088c0-30.064-18.264-56.216-45.504-66.912H496V286.216z M280,96    c0-44.112,35.888-80,80-80s80,35.888,80,80v120.08c-1.384-0.312-2.752-0.648-4.168-0.888L400,209.224v-17.128    c14.608-11.744,24-29.72,24-49.88l-0.056-50.688L412.6,96.752C412.44,96.832,396.456,104,360,104s-52.44-7.168-52.536-7.208    L296,91.296v25.656c-5.08-2.936-10.456-5.344-16-7.312V96z M331.344,152.496c-5.2-9.128-11.784-17.12-19.344-23.896v-13.64    c9.512,2.392,25.2,5.04,48,5.04s38.488-2.648,48-5.04v27.256c0,26.472-21.528,48-48,48c-2.68,0-5.344-0.296-8-0.752V177.68    C352,165.24,343.112,154.848,331.344,152.496z M345.04,241.824C349.488,231.192,352,219.736,352,208v-2.36    c2.656,0.336,5.328,0.584,8,0.584c8.488,0,16.584-1.696,24-4.712v13.2l-24,72L345.04,241.824z M345.696,294.392l-21.912-21.912    c3.944-3.664,7.44-7.704,10.616-11.984L345.696,294.392z M397.432,225.008l12.64,2.104l5.24,26.256l-41.008,41.016    L397.432,225.008z M235.216,120.992c34.488-5.344,68.192,11.832,83.968,42.648l2.24,4.36h4.888c5.344,0,9.688,4.344,9.688,9.68    V208c0,16.512-5.824,32.448-16.008,45.136l-0.04-49.08l-11.056,4.568C308.72,208.704,290.552,216,248,216    s-60.72-7.296-60.848-7.352L176,203.872v30.696c-6.472-13.448-9.184-28.576-7.48-43.808    C172.44,155.688,200.488,126.352,235.216,120.992z M158.632,234.528c1.808,4.672,3.904,9.232,6.432,13.584l-14.112-8.472    L158.632,234.528z M136.28,230.2L112,212v-10.496c7.416,3.016,15.512,4.712,24,4.712c5.536,0,10.96-0.792,16.248-2.2    c0.216,4.864,0.736,9.688,1.672,14.424L136.28,230.2z M168.904,269.064l7.84,4.704c2.36,17.296,10.864,32.616,23.256,43.744V336    h-32.936l-6.76-54.04L168.904,269.064z M206.024,352.672l27.992,22.392l-23.592,14.16l-21.704-32.56L206.024,352.672z     M216,340.152V328.4c9.656,4.816,20.496,7.6,32,7.6c11.504,0,22.344-2.776,32-7.6v11.752l-32,25.6L216,340.152z M289.976,352.664    l17.304,3.992l-21.704,32.56l-23.592-14.16L289.976,352.664z M248,320c-30.872,0-56-25.128-56-56v-37.328    c10.456,2.44,28.616,5.328,56,5.328c27.384,0,45.544-2.888,56-5.328V264C304,294.872,278.872,320,248,320z M72,91.296v28.584    c-5.088-6.808-8-15.16-8-23.88v-8c0-39.704,32.296-72,72-72c25.552,0,49.424,13.8,62.288,36.008L200.6,56h7.4c4.416,0,8,3.584,8,8    v32c0,5.016-1.008,9.904-2.88,14.608c-4.552,1.8-8.936,3.952-13.136,6.416l-0.032-25.488l-11.344,5.224    C188.44,96.832,172.456,104,136,104s-52.44-7.168-52.536-7.208L72,91.296z M88,142.216V114.96c9.512,2.392,25.2,5.04,48,5.04    s38.488-2.648,48-5.04v13.72c-16.6,14.984-28.04,35.616-31.08,58.368c-5.44,2.072-11.104,3.176-16.92,3.176    C109.528,190.216,88,168.688,88,142.216z M101.936,224.448l19.744,14.808l-22.936,13.768l-15.296-25.488L101.936,224.448z     M104.936,336H64v-24H48v24H16v-49.784c0-27.496,19.68-50.728,46.792-55.24l3.696-0.616l26.768,44.616l9.84-5.904l8.592,12.888    L104.936,336z M121.056,336l7.24-57.96l-11.472-17.208L136,249.328l19.168,11.496l-11.472,17.208l7.24,57.968H121.056z     M216.84,480H160v-40h-16v40h-32v-61.088c0-26.232,17.848-48.672,43.408-54.56l16.648-3.84l33.52,50.272l9.52-5.712l8.632,12.944    L216.84,480z M263.064,480h-30.12l7.336-66.016l-11.44-17.16L248,385.328l19.168,11.496l-11.44,17.16L263.064,480z M384,418.912    V480h-32v-40h-16v40h-56.84l-6.888-61.984l8.632-12.944l9.52,5.712l33.52-50.272l16.648,3.84    C366.152,370.24,384,392.68,384,418.912z M480,336h-32v-24h-16v24H296v-18.488c9.032-8.112,16-18.448,20.04-30.168L360,331.312    l72.688-72.68l-5.744-28.704l6.264,1.048c27.112,4.52,46.792,27.752,46.792,55.24V336z"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="xl:w-full lg:w-auto w-full flex flex-col gap-y-4">
+                            <p class="text-gray-400">ONLINE PURCHASING</p>
+                            <div class="group flex md:justify-between justify-center items-center text-nowrap cursor-pointer">
+                                <a href="#" class="service font-bold text-xl group-hover:text-blue-800/95">E-COMMERCE ORDERING</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 hidden md:block group-hover:stroke-blue-800 group-hover:translate-x-2 duration-300">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 6th card -->
+                <div class="sixCard group relative xl:w-sm lg:w-[305px] w-full lg:h-70 h-80 shadow-md bg-gray-50 flex justify-center items-center hover:scale-105 ring-6 rounded-xs ring-inset ring-blue-800 overflow-hidden duration-300">
+                    <div class="absolute group-hover:translate-x-full group-hover:opacity-0 px-10 flex flex-col md:text-left text-center justify-between md:items-start items-center gap-y-15 duration-300">
+                        <!--Arrow1 Svg-->
+                       
+                        <a href="#" class="flex flex-col justify-center items-center gap-y-4 overflow-hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="md:size-30 size-20 opacity-20  group-hover:stroke-blue-800 group-hover:translate-x-2 duration-300">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                            </svg>
+                            <p class="text-gray-400">Looking For a New Services?</p>                            
+                        </a>
+                    </div>
+                    <div class="absolute -translate-x-full group-hover:translate-x-0 opacity-0 group-hover:opacity-100 px-10 flex flex-col md:text-left text-center justify-between md:items-start items-center gap-y-15 duration-300">
+                        <!--left arrow Svg-->
+                       
+                        <a href="#" class="flex flex-col justify-center items-center gap-y-4 overflow-hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="md:size-30 size-20 group-hover:stroke-blue-800 group-hover:translate-x-2 duration-300">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                            </svg>
+                            <p class="text-gray-400">Request a Quote!</p>                            
+                        </a>
+                    </div>
+                </div>   
+
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!--Blue and white half bg section-->
+    <section class="relative w-full bg-gray-900 p-4">
+        
+        <div class="max-w-7xl h-72 mx-auto p-8">
+            <div class="relative w-full lg:h-110 md:h-96 sm:h-58 h-50 bg-[url('../img/bg1.png')] bg-cover bg-center md:-mt-55 -mt-25 rounded-sm">
+                <p class="text-white md:text-2xl text-sm font-bold absolute left-0 bottom-0 py-3 px-8">Think Different Outside The Box</p>
+            </div>            
+            
+        </div>
+       <!--Status Section-->
+       
+        <div class="max-w-7xl mx-auto pb-14 px-4 -mt-35 sm:-mt-20 md:mt-0 flex flex-wrap md:flex-row flex-col lg:justify-center md:justify-start justify-center items-center gap-x-12 overflow-hidden">
+            <div class="flex flex-col justify-center items-center md:justify-start md:text-left md:items-start md:w-[180px] w-full gap-y-6">
+                <span class="text-gray-400">TRUST US</span>
+                <h2 class="text-white md:text-4xl text-2xl font-bold text-wrap">WE ARE AUTHENTIC</h2>
+            </div>
+            <div class="lg:w-auto w-full flex flex-col justify-center items-center md:flex-row md:gap-x-3 gap-y-6 text-nowrap">
+                <div class="flex-1 w-full flex flex-col justify-center md:items-start items-center gap-y-4">
+                    <div class=" xl:w-sm md:max-w-[250px] w-full flex md:justify-start justify-center items-end border-b-2 py-4 border-gray-500 hover:border-white">
+                        <h2 class="text-white text-7xl font-extralight">41</h2>
+                        <span class="text-gray-400 text-5xl font-extralight">+</span>
+                    </div>
+                    <p class="text-gray-400 text-2xl">Year of Experience</p>
+                </div>
+                <div class="flex-1 w-full flex flex-col justify-center md:items-start items-center gap-y-4">
+                    <div class="xl:w-sm md:max-w-[250px] w-full flex md:justify-start justify-center items-end border-b-2 py-4 border-gray-500 hover:border-white">
+                        <h2 class="text-white text-7xl font-extralight">23</h2>
+                        <span class="text-gray-400 text-5xl font-extralight">k</span>
+                    </div>
+                    <p class="text-gray-400 text-2xl">Cases Completed</p>
+                </div>
+                <div class="flex-1 w-full flex flex-col justify-center md:items-start items-center gap-y-4">
+                    <div class="xl:w-xs md:max-w-[250px]  w-full flex md:justify-start justify-center items-end border-b-2 py-4 border-gray-500 hover:border-white">
+                        <h2 class="text-white text-7xl font-extralight">85</h2>
+                        <span class="text-gray-400 text-5xl font-extralight">k</span>
+                    </div>
+                    <p class="text-gray-400 text-2xl">Satisfied Customers</p>
+                </div>
+            </div>
+        </div>
+         
+    </section>
+
+    <!--About Section-->
+    <section class="w-full bg-white py-16">
+        <div class="max-w-7xl mx-auto flex lg:flex-row flex-col justify-center sm:items-start items-center px-6 gap-6">
+        
+            <!-- Left Content -->
+            <div class="relative w-full">
+                <!-- Left vertical text with line -->
+                <div class="md:border-l md:border-gray-400 px-12">
+                    <span class="md:opacity-100 opacity-0 rotate-[-90deg] text-gray-400 tracking-widest text-sm">OUR STORY</span>
+
+
+                    <!-- Text content -->
+                    <h2 class="text-3xl md:text-4xl md:text-left text-center font-bold leading-snug">
+                        SOMETHING KNOW <br />
+                        ABOUT <span class="text-blue-800">OUR BUSINESS</span>
+                    </h2>
+
+                    <p class="md:text-left text-center mt-6 text-gray-600 leading-relaxed">
+                        <span class="font-bold text-blue-800 bg-blue-100 px-1">XTRA Theme</span>
+                        is a creative, responsive, live drag and drop and easy-to-use WordPress theme for any kind of websites. 
+                        It allows you to create sites for a wide range of businesses and styles. 
+                        The changing role of the traditional bank manager and accountant see these two segments requiring business advisory expertise and content. 
+                        Strategy and Management is the key. Xtra only delivers content for the small business segment, and increasingly digital only delivery as search becomes the default for knowledge.
+                    </p>
+
+                    <!-- Features list -->
+                    <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="group flex items-center gap-2 p-1 ">
+                            <div class="w-10 h-10 flex justify-center items-center rounded-full group-hover:bg-blue-800 group-hover:translate-x-2 duration-200">  
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-4 group-hover:scale-125 group-hover:stroke-white  stroke-blue-600">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                                </svg>
+                            </div> 
+                            <p class="font-semibold group-hover:translate-x-2 duration-200">Coherent in doing things</p>
+                        </div>
+                        <div class="group flex items-center gap-2 p-1 ">
+                            <div class="w-10 h-10 flex justify-center items-center rounded-full group-hover:bg-blue-800 group-hover:translate-x-2 duration-200">  
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-4 group-hover:scale-125 group-hover:stroke-white  stroke-blue-600">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                                </svg>
+                            </div> 
+                            <p class="font-semibold group-hover:translate-x-2 duration-200">New and modern ideas</p>
+                        </div>
+                        <div class="group flex items-center gap-2 p-1 ">
+                            <div class="w-10 h-10 flex justify-center items-center rounded-full group-hover:bg-blue-800 group-hover:translate-x-2 duration-200">  
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-4 group-hover:scale-125 group-hover:stroke-white  stroke-blue-600">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                                </svg>
+                            </div> 
+                            <p class="font-semibold group-hover:translate-x-2 duration-200">Work progress coordination</p>
+                        </div>
+                        <div class="group flex items-center gap-2 p-1 ">
+                            <div class="w-10 h-10 flex justify-center items-center rounded-full group-hover:bg-blue-800 group-hover:translate-x-2 duration-200">  
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="size-4 group-hover:scale-125 group-hover:stroke-white  stroke-blue-600">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                                </svg>
+                            </div> 
+                            <p class="font-semibold group-hover:translate-x-2 duration-200">Accurate and friendly support</p>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <!-- Buttons -->
+                <div class="mt-8 flex md:justify-start md:items-start justify-center items-center md:gap-4 gap-y-4 sm:gap-x-8 gap-x-4 text-nowrap duration-200">
+                    <a href="#team" class="border-2 hover:border-blue-800 hover:bg-white bg-blue-800 hover:text-blue-800 text-white md:px-6 md:py-3 p-2 rounded-sm font-semibold duration-300">
+                        About Our Team
+                    </a>
+                    <a href="#contact" class="block border-2 border-blue-800 text-blue-800 md:px-6 md:py-3 p-2 rounded-sm font-semibold hover:bg-blue-800 hover:transitioin-all hover:text-white duration-300">
+                        Contact Us Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right Image -->
+            <div class="sm:w-sm h-120 flex sm:justify-start sm:items-start justify-center items-center rounded-md shadow-md overflow-hidden">
+                <img src="../img/bg.png" alt="Business Team" class="w-full h-full hover:scale-110 object-cover duration-500" />
+            </div>
+
+        </div>
+    </section>
+
+
+ <!--Start Define Your Goal Section-->
+    <section class="w-full min-h-screen lg:min-h-svh relative bg-[url('../img/bg.png')] bg-cover">
+        <!-- <div class="w-full h-full bg-[url('../img/bg.png')] bg-cover absolute inset-0"></div> -->
+        <div class="max-w-7xl mx-auto flex flex-col justify-center items-center p-8 gap-y-8" >
+            <div id="hide" class="relative hide-opt hidden w-full">
+                <div class=" flex flex-col justify-between bg-white rounded-xs">   
+
+                    <button id="dropdownBtn" 
+                            class="flex justify-between items-center w-full bg-white px-3 py-2 rounded-md border border-gray-300 text-gray-700 shadow-sm hover:bg-gray-50">
+                    <span id="selectedText">Define Your Goals</span>
+                    <!--down arrow triangle svg-->
+                    <div class="flex justify-center items-center px-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="size-3" fill="#cacaca" version="1.1" id="Capa_1" width="800px" height="800px" viewBox="0 0 96.154 96.154" xml:space="preserve">
+                            <g>
+                                <path d="M0.561,20.971l45.951,57.605c0.76,0.951,2.367,0.951,3.127,0l45.956-57.609c0.547-0.689,0.709-1.716,0.414-2.61   c-0.061-0.187-0.129-0.33-0.186-0.437c-0.351-0.65-1.025-1.056-1.765-1.056H2.093c-0.736,0-1.414,0.405-1.762,1.056   c-0.059,0.109-0.127,0.253-0.184,0.426C-0.15,19.251,0.011,20.28,0.561,20.971z"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <ul name="opt" id="opt" class="hidden absolute w-full bg-white top-full left-0 py-2 text-left z-50">
+                        <li value="1" class="plan p-0.5 w-full px-2 bg-blue-500 text-white hover:bg-blue-600 hover:text-white">Define Your Goals</li>
+                        <li value="2" class="plan p-0.5 w-full px-2 hover:bg-blue-600 hover:text-white">Plan Your Process</li>
+                        <li value="3" class="plan p-0.5 w-full px-2 hover:bg-blue-600 hover:text-white">Assign Stakeholders</li>
+                        <li value="4" class="plan p-0.5 w-full px-2 hover:bg-blue-600 hover:text-white">Process Implement</li>
+                    </ul>
+                </div> 
+            </div>
+            <!-- image and content -->
+            <div class="cus-process">   
+                <div class="flex lg:flex-row flex-col gap-6 lg:gap-x-12 lg:pt-50">
+                    <img src="../img/background1.jpg" class="md:w-140 md:h-90 w-full h-full object-cover rounded-sm z-10" alt="">
+
+                    <!--left Content -->
+                    <div class="flex flex-col items-center justify-center md:items-start py-6 relative">
+                        <!-- message icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-30 absolute top-0 stroke-gray-500 opacity-60">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                        </svg>
+                        <div class="z-10 flex flex-col items-center justify-center md:items-start">
+                            <h3 class="text-white text-2xl font-bold my-3">DEFINE YOUR GOALS</h3>
+                            <span class="text-gray-400 text-xl ">IT NEEDS DIRECTION</span>
+                            <p class="text-gray-100 text-lg md:text-left text-center mt-8">What is the purpose of the process? Why was it created? How will you know if it is successful? A sales process might seem to be very different from the finance process, but there are certain steps that are universally common to all business processes. Xtra only delivers content for the small business segment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <!--image and content for process-->
+            <div class="hidden cus-process">
+                <div class="flex lg:flex-row-reverse flex-col-reverse gap-6 lg:gap-x-12 lg:pt-50">
+                    <img src="../img/people1.jpg" class="md:w-140 sm:h-90 w-full h-full object-cover rounded-sm z-10" alt="">
+
+                    <!--left Content -->
+                    <div class="flex flex-col items-center justify-center md:items-start py-6 relative">
+                        <!-- message icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-30 absolute top-0 stroke-gray-500 opacity-60">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+                        </svg>
+                        <div class="z-10 flex flex-col items-center justify-center md:items-start">
+                            <h3 class="text-white text-2xl font-bold my-3">PLAN & MAP YOUR PROCESS</h3>
+                            <span class="text-gray-400 text-xl ">THINK OUT OF THE BOX</span>
+                            <p class="text-gray-100 text-lg md:text-left text-center mt-8">What are the strategies needed to achieve the goals? This is the broad road map for the process. A sales process might seem to be very different from a finance process, but there are certain steps that are universally common to all business processes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--image and content for stakeholders-->
+            <div class="hidden cus-process">
+                <div class="flex lg:flex-row flex-col gap-6 lg:gap-x-12 lg:pt-50">
+                    <img src="../img/people2.jpg" class="cus-img md:w-140 md:h-90 w-full h-full object-cover rounded-sm z-10" alt="">
+
+                    <!--left Content -->
+                    <div class="flex flex-col items-center justify-center md:items-start py-6 relative">
+                        <!-- message icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-30 absolute top-0 stroke-gray-500 opacity-60">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                        </svg>
+                        <div class="z-10 flex flex-col items-center justify-center md:items-start">
+                            <h3 class="text-white text-2xl font-bold my-3">DEFINE YOUR GOALS</h3>
+                            <span class="text-gray-400 text-xl ">IT NEEDS DIRECTION</span>
+                            <p class="text-gray-100 text-lg md:text-left text-center mt-8">What is the purpose of the process? Why was it created? How will you know if it is successful? A sales process might seem to be very different from the finance process, but there are certain steps that are universally common to all business processes. Xtra only delivers content for the small business segment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--image and content for implement-->
+            <div class="hidden cus-process">
+                <div class="flex lg:flex-row flex-col gap-6 lg:gap-x-12 lg:pt-50">
+                    <img src="../img/people3.jpg" class="cus-img md:w-140 md:h-90 w-full h-full object-cover rounded-sm z-10" alt="">
+
+                    <!--left Content -->
+                    <div class="flex flex-col items-center justify-center md:items-start py-6 relative">
+                        <!-- message icon -->
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-30 absolute top-0 stroke-gray-500 opacity-60">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25h11.25M7.5 14.25l-1.5-6h13.5l-1.5 6M7.5 14.25L5.25 6.75M16.5 19.5a1.5 1.5 0 11-3.001-.001A1.5 1.5 0 0116.5 19.5zm-7.5 0a1.5 1.5 0 11-3.001-.001A1.5 1.5 0 019 19.5z" />
+                        </svg>
+                        <div class="z-10 flex flex-col items-center justify-center md:items-start">
+                            <h3 class="text-white text-2xl font-bold my-3">DEFINE YOUR GOALS</h3>
+                            <span class="text-gray-400 text-xl ">IT NEEDS DIRECTION</span>
+                            <p class="text-gray-100 text-lg md:text-left text-center mt-8">What is the purpose of the process? Why was it created? How will you know if it is successful? A sales process might seem to be very different from the finance process, but there are certain steps that are universally common to all business processes. Xtra only delivers content for the small business segment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--bottom icons-->
+            <div class="btn hidden sm:block absolute bottom-0">
+                <div class="flex px-8 gap-x-4 md:gap-x-6 lg:gap-x-12 xl:gap-x-18 md:text-nowrap">
+                    <button class="cus-btn group border-b-8 border-white md:px-2 lg:px-3">
+                        <div class="flex flex-col lg:flex-row items-center mb-4 cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 stroke-white group-hover:stroke-white  duration-300">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+                            </svg>
+                            <span class="text-white font-semibold group-hover:text-white duration-300">Define Your Goals</span>
+                        </div>
+                    </button>
+
+                    <button class="cus-btn group border-b-8 border-transparent md:px-2">
+                        <div class="flex flex-col lg:flex-row items-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 stroke-gray-400 group-hover:stroke-white duration-300">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+                            </svg>
+
+                            <span class="text-gray-400 font-semibold group-hover:text-white duration-300">Plan Your Process</span>
+                        </div>
+                    </button>
+
+                    <button class="cus-btn group border-b-8 border-transparent md:px-2">
+                        <div class="flex flex-col lg:flex-row items-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 stroke-gray-400 group-hover:stroke-white duration-300">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                            </svg>
+
+                            <span class="text-gray-400 font-semibold group-hover:text-white duration-300">Assign Stakeholders</span>
+                        </div>
+                    </button>
+
+                    <button class="cus-btn group border-b-8 border-transparent md:px-2">
+                        <div class="flex flex-col lg:flex-row items-center mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 stroke-gray-400 group-hover:stroke-white duration-300">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25h11.25M7.5 14.25l-1.5-6h13.5l-1.5 6M7.5 14.25L5.25 6.75M16.5 19.5a1.5 1.5 0 11-3.001-.001A1.5 1.5 0 0116.5 19.5zm-7.5 0a1.5 1.5 0 11-3.001-.001A1.5 1.5 0 019 19.5z" />
+                            </svg>
+                            <span class="text-gray-400 font-semibold group-hover:text-white duration-300">Process Implement</span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--End Define Your Goal Section-->
+
+
+<!--Start How It Work Section-->
+    <section class="bg-gray-100">
+        
+        <div class="max-w-7xl mx-auto 2xl:px-0 px-15 py-25 lg:flex transition-all">
+            <!--start left text div-->
+            <div class="lg:max-w-1/2 max-w-full pr-6">
+                <h4 class="uppercase text-xl text-gray-400 pb-4">Work Process</h4>
+                <h1 class="uppercase text-4xl font-bold py-5" >how it <span class="text-blue-800">works</span>?</h1>
+                <p class="text-lg text-gray-500 text-left">As an example, let's take the content marketing process. It’s a process you’ll find in every Marketing Department out there. The issue is, it can be rather hectic and chaotic unless the process. There will be writers, designers, xtra experts, and web designers, all working together to create a single piece of content. The first draft is written and reviewed to create the final draft.</p>
+
+                <div class="py-8">
+                    <div class="group flex items-center py-3 hover:-translate-y-1 duration-100">
+                        <div class="px-2 w-10 h-10 flex justify-center items-center group-hover:bg-blue-900 rounded-full">
+                            
+                            <svg class="w-6 h-6 group-hover:fill-white fill-green-700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800px" width="800px" version="1.1" id="Layer_1" viewBox="0 0 512.001 512.001" xml:space="preserve">
+                            
+                                <path  d="M477.052,81.119c10.137,10.137,10.137,26.634,0,36.785L229.477,365.479  c-3.119,3.119-8.208,3.119-11.327,0L97.81,245.139c-10.137-10.15-10.137-26.648,0-36.785c5.075-5.075,11.737-7.606,18.399-7.606  c6.662,0,13.31,2.531,18.386,7.606l71.887,71.873c4.624,4.637,10.78,7.182,17.332,7.182s12.708-2.544,17.346-7.182L440.268,81.119  C450.404,70.982,466.916,70.982,477.052,81.119z"/>
+                                <path  d="M449.72,239.845c0.383,5.308,0.575,10.739,0.575,16.156c0,124.143-100.997,225.141-225.141,225.141  S0,380.144,0,256S101.011,30.86,225.154,30.86c49.165,0,95.867,15.568,135.046,45.006c6.046,4.542,7.264,13.119,2.722,19.152  c-4.542,6.046-13.119,7.264-19.152,2.722c-34.418-25.855-75.43-39.521-118.617-39.521C116.086,58.219,27.359,146.946,27.359,256  s88.727,197.781,197.795,197.781c109.055,0,197.781-88.727,197.781-197.781c0-4.761-0.178-9.535-0.506-14.186  c-0.547-7.538,5.13-14.09,12.654-14.637C442.634,226.644,449.173,232.307,449.72,239.845z"/>
+                            </svg>
+                            
+                        </div>
+                        <span class="pl-4 text-lg font-semibold">Create a new idea for client project</span>
+                    </div>
+
+                    <div class="group flex items-center py-3 hover:-translate-y-1 duration-100">
+                        <div class="px-2 w-10 h-10 flex justify-center items-center group-hover:bg-blue-900 rounded-full ">
+                            
+                            <svg class="w-6 h-6 group-hover:fill-white fill-green-700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800px" width="800px" version="1.1" id="Layer_1" viewBox="0 0 512.001 512.001" xml:space="preserve">
+                            
+                                <path  d="M477.052,81.119c10.137,10.137,10.137,26.634,0,36.785L229.477,365.479  c-3.119,3.119-8.208,3.119-11.327,0L97.81,245.139c-10.137-10.15-10.137-26.648,0-36.785c5.075-5.075,11.737-7.606,18.399-7.606  c6.662,0,13.31,2.531,18.386,7.606l71.887,71.873c4.624,4.637,10.78,7.182,17.332,7.182s12.708-2.544,17.346-7.182L440.268,81.119  C450.404,70.982,466.916,70.982,477.052,81.119z"/>
+                                <path  d="M449.72,239.845c0.383,5.308,0.575,10.739,0.575,16.156c0,124.143-100.997,225.141-225.141,225.141  S0,380.144,0,256S101.011,30.86,225.154,30.86c49.165,0,95.867,15.568,135.046,45.006c6.046,4.542,7.264,13.119,2.722,19.152  c-4.542,6.046-13.119,7.264-19.152,2.722c-34.418-25.855-75.43-39.521-118.617-39.521C116.086,58.219,27.359,146.946,27.359,256  s88.727,197.781,197.795,197.781c109.055,0,197.781-88.727,197.781-197.781c0-4.761-0.178-9.535-0.506-14.186  c-0.547-7.538,5.13-14.09,12.654-14.637C442.634,226.644,449.173,232.307,449.72,239.845z"/>
+                            </svg>
+                            
+                        </div>
+                        <span class="pl-4 text-lg font-semibold">Start designing wire frame in Photoshop</span>
+                    </div>
+
+                    <div class="group flex items-center py-3 hover:-translate-y-1 duration-100">
+                        <div class="px-2 w-10 h-10 flex justify-center items-center group-hover:bg-blue-900 rounded-full ">
+                            
+                            <svg class="w-6 h-6 group-hover:fill-white fill-green-700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800px" width="800px" version="1.1" id="Layer_1" viewBox="0 0 512.001 512.001" xml:space="preserve">
+                            
+                                <path  d="M477.052,81.119c10.137,10.137,10.137,26.634,0,36.785L229.477,365.479  c-3.119,3.119-8.208,3.119-11.327,0L97.81,245.139c-10.137-10.15-10.137-26.648,0-36.785c5.075-5.075,11.737-7.606,18.399-7.606  c6.662,0,13.31,2.531,18.386,7.606l71.887,71.873c4.624,4.637,10.78,7.182,17.332,7.182s12.708-2.544,17.346-7.182L440.268,81.119  C450.404,70.982,466.916,70.982,477.052,81.119z"/>
+                                <path  d="M449.72,239.845c0.383,5.308,0.575,10.739,0.575,16.156c0,124.143-100.997,225.141-225.141,225.141  S0,380.144,0,256S101.011,30.86,225.154,30.86c49.165,0,95.867,15.568,135.046,45.006c6.046,4.542,7.264,13.119,2.722,19.152  c-4.542,6.046-13.119,7.264-19.152,2.722c-34.418-25.855-75.43-39.521-118.617-39.521C116.086,58.219,27.359,146.946,27.359,256  s88.727,197.781,197.795,197.781c109.055,0,197.781-88.727,197.781-197.781c0-4.761-0.178-9.535-0.506-14.186  c-0.547-7.538,5.13-14.09,12.654-14.637C442.634,226.644,449.173,232.307,449.72,239.845z"/>
+                            </svg>
+                            
+                        </div>
+                        <span class="pl-4 text-lg font-semibold">Development and coding overall project</span>
+                    </div>
+
+                    <div class="group flex items-center py-3 hover:-translate-y-1 duration-100">
+                        <div class="px-2 w-10 h-10 flex justify-center items-center group-hover:bg-blue-900 rounded-full ">
+                            
+                            <svg class="w-6 h-6 group-hover:fill-white fill-green-700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800px" width="800px" version="1.1" id="Layer_1" viewBox="0 0 512.001 512.001" xml:space="preserve">
+                            
+                                <path  d="M477.052,81.119c10.137,10.137,10.137,26.634,0,36.785L229.477,365.479  c-3.119,3.119-8.208,3.119-11.327,0L97.81,245.139c-10.137-10.15-10.137-26.648,0-36.785c5.075-5.075,11.737-7.606,18.399-7.606  c6.662,0,13.31,2.531,18.386,7.606l71.887,71.873c4.624,4.637,10.78,7.182,17.332,7.182s12.708-2.544,17.346-7.182L440.268,81.119  C450.404,70.982,466.916,70.982,477.052,81.119z"/>
+                                <path  d="M449.72,239.845c0.383,5.308,0.575,10.739,0.575,16.156c0,124.143-100.997,225.141-225.141,225.141  S0,380.144,0,256S101.011,30.86,225.154,30.86c49.165,0,95.867,15.568,135.046,45.006c6.046,4.542,7.264,13.119,2.722,19.152  c-4.542,6.046-13.119,7.264-19.152,2.722c-34.418-25.855-75.43-39.521-118.617-39.521C116.086,58.219,27.359,146.946,27.359,256  s88.727,197.781,197.795,197.781c109.055,0,197.781-88.727,197.781-197.781c0-4.761-0.178-9.535-0.506-14.186  c-0.547-7.538,5.13-14.09,12.654-14.637C442.634,226.644,449.173,232.307,449.72,239.845z"/>
+                            </svg>
+                            
+                        </div>
+                        <span class="pl-4 text-lg font-semibold">Test and execute final project on online server</span>
+                    </div>
+                    
+                </div>
+            </div>
+            <!--end left text div-->
+
+            <!--start right 4-card div-->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 ">
+                <div class="p-10 md:text-left text-center bg-white shadow-xs border border-gray-100 hover:border-blue-500 relative transition-all duration-100">
+                    <h1 class="text-9xl font-extrabold text-gray-200">I</h1>
+                    <div class="md:relative absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:left-0 md:top-0 md:translate-x-6 md:-translate-y-12 flex text-2xl font-bold">
+                        <h2 class="pr-2 text-gray-400">01.</h2>
+                        <h2>IDEA</h2>
+                    </div>
+                    <p class="md:relative text-lg text-gray-500">
+                        Based on client needs, We will provide some good solutions
+                    </p>
+                </div>
+
+                <div class="p-10 md:text-left text-center bg-white shadow-xs border border-gray-100 hover:border-blue-500 relative md:translate-y-20 transition-all duration-100">
+                    <h1 class="text-9xl font-extrabold text-gray-200">II</h1>
+                    <div class="md:relative absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:left-0 md:top-0 md:translate-x-6 md:-translate-y-12 flex text-2xl font-bold">
+                        <h2 class="pr-2 text-gray-400">02.</h2>
+                        <h2>DESIGN</h2>
+                    </div>
+                    <p class="md:relative text-lg text-gray-500">
+                        Based on client needs, We will provide some good solutions
+                    </p>
+                </div>
+
+
+                <div class="p-10 md:text-left text-center bg-white shadow-xs border border-gray-100 hover:border-blue-500 relative transition-all duration-100">
+                    <h1 class="text-9xl font-extrabold text-gray-200">III</h1>
+                    <div class="md:relative absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:left-0 md:top-0 md:translate-x-6 md:-translate-y-12 flex text-2xl font-bold">
+                        <h2 class="pr-2 text-gray-400">03.</h2>
+                        <h2>CREATE</h2>
+                    </div>
+                    <p class="md:relative text-lg text-gray-500">
+                        Based on client needs, We will provide some good solutions
+                    </p>
+                </div>
+
+
+                <div class="p-10 md:text-left text-center bg-white shadow-xs border border-gray-100 hover:border-blue-500 relative md:translate-y-20 transition-all duration-100">
+                    <h1 class="text-9xl font-extrabold text-gray-200">IV</h1>
+                    <div class="md:relative absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 md:left-0 md:top-0 md:translate-x-6 md:-translate-y-12 flex text-2xl font-bold">
+                        <h2 class="pr-2 text-gray-400">04.</h2>
+                        <h2>EXECUTE</h2>
+                    </div>
+                    <p class="md:relative text-lg text-gray-500">
+                        Based on client needs, We will provide some good solutions
+                    </p>
+                </div>
+            </div>
+            <!--end right 4-card div-->
+        </div>
+
+    </section>
+<!--End How It Work Section-->
+
+<!-- Start Services Section -->
+    <section class="bg-gray-100">
+        <div class="lg:flex py-12">
+            <img src="../img/business-men.jpg" alt="" class="lg:max-w-1/2 w-full lg:h-screen object-cover">
+            <div class="p-4 lg:p-0 lg:h-screen lg:flex lg:flex-wrap lg:items-center">
+                <div class="group flex p-4">
+                    <div class="w-32 h-32">
+                        <img src="../img/image1.png" class="rounded-sm object-cover lg:-translate-x-14 group-hover:scale-110 transition-all duration-200" alt="service1">
+                    </div>
+                    <div class="pl-8">
+                        <h2 class="inline-block text-3xl font-bold pb-3.5 border-b-2 border-gray-300 group-hover:border-blue-900 group-hover:text-blue-900 transition-all duration-200">Financial Services</h2> <!--need inline-block-->
+                        <div class="text-lg/loose text-gray-600 pt-3">
+                            <p>The editor reviews the content to ensure there are no process,</p>
+                            <p>Once this is done, it moves to designer.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="group flex p-4">
+                    <div class="w-32 h-32">
+                        <img src="../img/image2.png" class="rounded-sm object-cover lg:-translate-x-14 group-hover:scale-110 transition-all duration-200" alt="service2">
+                    </div>
+                    <div class="pl-8">
+                        <h2 class="inline-block text-3xl font-bold pb-3.5 border-b-2 border-gray-300 group-hover:border-blue-900 group-hover:text-blue-900 transition-all duration-200">Software Services</h2> <!--need inline-block-->
+                        <div class="text-lg/loose text-gray-600 pt-3">
+                            <p>The editor reviews the content to ensure there are no process,</p>
+                            <p>Once this is done, it moves to designer.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="group flex p-4">
+                    <div class="w-32 h-32">
+                        <img src="../img/image3.png" class="rounded-sm object-cover lg:-translate-x-14 group-hover:scale-110 transition-all duration-200" alt="service3">
+                    </div>
+                    <div class="pl-8">
+                        <h2 class="inline-block text-3xl font-bold pb-3.5 border-b-2 border-gray-300 group-hover:border-blue-900 group-hover:text-blue-900 transition-all duration-200">Industrial Services</h2> <!--need inline-block-->
+                        <div class="text-lg/loose text-gray-600 pt-3">
+                            <p>The editor reviews the content to ensure there are no process,</p>
+                            <p>Once this is done, it moves to designer.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- End Services Section -->
+
+<!--Start Blog Section-->
+<section class="bg-gray-100">
+    <div class="max-w-7xl mx-auto p-10">
+        <div class="flex flex-col items-center">
+            <h3 class="text-lg/loose text-gray-500 uppercase">Latest Updates and News</h3>
+            <h2 class="text-3xl/loose md:text-5xl/loose font-bold pb-12">From the <span class="text-blue-900">Blog</span></h2>
+        </div>
+        
+        <div class="flex flex-wrap lg:justify-center justify-start lg:gap-x-24 md:gap-x-8 gap-y-8">
+            
+                <div class="group flex flex-col">
+                    <div class="lg:w-96 lg:h-80 md:w-60 md:h-46 w-40 h-36 overflow-hidden">
+                        <div class="flex justify-center items-center w-full h-full bg-[url('../img/blogimg1.jpg')] bg-no-repeat bg-cover bg-center group-hover:scale-110 duration-500">
+                            <div class="absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-15 duration-500"></div>
+                            <div class="flex justify-center items-center bg-white md:w-20 md:h-20 w-15 h-15 rounded-sm rotate-y-90 opacity-0 group-hover:opacity-100 group-hover:rotate-y-0 duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000088" version="1.1" id="Capa_1" width="35px" height="35px" viewBox="0 0 486.465 486.465" xml:space="preserve">
+                                    <g>
+                                        <g>
+                                            <path d="M453.323,39.655l-16.564-14.656C418.729,9.021,395.521,0.22,371.405,0.22c-28.223,0-55.118,12.079-73.791,33.143    L250.207,86.86c-6.105,6.876-9.164,15.722-8.608,24.901c0.557,9.166,4.642,17.576,11.518,23.673l4.438,3.94    c6.299,5.594,14.416,8.673,22.842,8.673l2.054-0.059c9.166-0.551,17.582-4.637,23.699-11.523l47.418-53.503    c8.342-9.416,24.169-10.362,33.601-2.026l16.558,14.688c4.748,4.203,7.57,10.021,7.955,16.384    c0.386,6.358-1.722,12.465-5.937,17.208L302.042,246.198c-6.982,7.887-19.377,10.164-28.734,5.342    c-14.577-7.519-33.58-3.93-44.392,8.256l-0.813,0.926c-7.573,8.518-10.727,19.838-8.674,31.104    c2.074,11.198,9.047,20.801,19.153,26.09c13.986,7.311,29.763,11.33,45.621,11.33h0.012c28.21,0,55.117-12.238,73.8-33.308    l103.691-117.046C497.746,138.226,494.004,75.731,453.323,39.655z"/>
+                                            <path d="M228.873,347.458c-13.669-12.103-36.426-10.743-48.574,2.938l-47.396,53.487c-8.342,9.412-24.159,10.387-33.58,2.043    l-16.576-14.705c-4.747-4.207-7.57-10.025-7.955-16.383c-0.387-6.348,1.722-12.453,5.935-17.196l103.692-116.974    c6.876-7.765,19.047-10.111,28.297-5.566c15.121,7.448,34.359,3.818,46.05-9.416c7.433-8.374,10.555-19.496,8.586-30.463    c-1.956-11.031-8.747-20.389-18.618-25.666c-14.201-7.604-30.274-11.624-46.466-11.624c-28.223,0-55.118,12.084-73.791,33.151    L24.772,308.038c-36.062,40.666-32.308,103.082,8.361,139.143l16.564,14.482c18.021,15.979,41.229,24.582,65.345,24.582    c0.011,0,0,0,0.011,0c28.223,0,55.129-11.889,73.812-32.957l47.388-53.379c6.116-6.887,9.176-15.691,8.618-24.819    c-0.533-9.068-4.736-17.694-11.538-23.706L228.873,347.458z"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:inline-block bg-white -translate-3 p-1 pr-10 rounded-sm text-blue-900 text-sm/loose font-semibold shadow-md">
+                        <span>1 June 2024 </span>
+                        <span>Tutorials</span>
+                        <span>,Uncategorized</span>
+                    </div>
+                
+                    <a href="#" class="text-2xl font-bold group-hover:text-blue-900  text-wrap">How to be a head stock changes</a>
+
+                </div>
+            
+
+            <div class="group flex flex-col">
+                <div class="lg:w-96 lg:h-80 md:w-60 md:h-46 w-40 h-36 overflow-hidden">
+                    <div class="flex justify-center items-center w-full h-full bg-[url('../img/blogimg2.jpg')] bg-no-repeat bg-cover bg-center group-hover:scale-110 duration-500">
+                        <div class="absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-15 duration-500"></div>
+                        <div class="flex justify-center items-center bg-white md:w-20 md:h-20 w-15 h-15 rounded-sm rotate-y-90 opacity-0 group-hover:opacity-100 group-hover:rotate-y-0 duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000088" version="1.1" id="Capa_1" width="35px" height="35px" viewBox="0 0 486.465 486.465" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path d="M453.323,39.655l-16.564-14.656C418.729,9.021,395.521,0.22,371.405,0.22c-28.223,0-55.118,12.079-73.791,33.143    L250.207,86.86c-6.105,6.876-9.164,15.722-8.608,24.901c0.557,9.166,4.642,17.576,11.518,23.673l4.438,3.94    c6.299,5.594,14.416,8.673,22.842,8.673l2.054-0.059c9.166-0.551,17.582-4.637,23.699-11.523l47.418-53.503    c8.342-9.416,24.169-10.362,33.601-2.026l16.558,14.688c4.748,4.203,7.57,10.021,7.955,16.384    c0.386,6.358-1.722,12.465-5.937,17.208L302.042,246.198c-6.982,7.887-19.377,10.164-28.734,5.342    c-14.577-7.519-33.58-3.93-44.392,8.256l-0.813,0.926c-7.573,8.518-10.727,19.838-8.674,31.104    c2.074,11.198,9.047,20.801,19.153,26.09c13.986,7.311,29.763,11.33,45.621,11.33h0.012c28.21,0,55.117-12.238,73.8-33.308    l103.691-117.046C497.746,138.226,494.004,75.731,453.323,39.655z"/>
+                                        <path d="M228.873,347.458c-13.669-12.103-36.426-10.743-48.574,2.938l-47.396,53.487c-8.342,9.412-24.159,10.387-33.58,2.043    l-16.576-14.705c-4.747-4.207-7.57-10.025-7.955-16.383c-0.387-6.348,1.722-12.453,5.935-17.196l103.692-116.974    c6.876-7.765,19.047-10.111,28.297-5.566c15.121,7.448,34.359,3.818,46.05-9.416c7.433-8.374,10.555-19.496,8.586-30.463    c-1.956-11.031-8.747-20.389-18.618-25.666c-14.201-7.604-30.274-11.624-46.466-11.624c-28.223,0-55.118,12.084-73.791,33.151    L24.772,308.038c-36.062,40.666-32.308,103.082,8.361,139.143l16.564,14.482c18.021,15.979,41.229,24.582,65.345,24.582    c0.011,0,0,0,0.011,0c28.223,0,55.129-11.889,73.812-32.957l47.388-53.379c6.116-6.887,9.176-15.691,8.618-24.819    c-0.533-9.068-4.736-17.694-11.538-23.706L228.873,347.458z"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:inline-block bg-white -translate-3 p-1 pr-10 rounded-sm text-blue-900 text-sm/loose font-semibold shadow-md">
+                    <span>1 June 2024 </span>
+                    <span>Tutorials</span>
+                    <span>,Uncategorized</span>
+                </div>
+                <a href="#" class="text-2xl font-bold group-hover:text-blue-900 text-wrap">Online Reputation And Management</a>
+            </div>
+
+
+            
+        </div>
+    </div>
+</section>
+<!--End Blog Section-->
+
+<!--Start Our Team Section-->
+<section class="bg-gray-900">
+    <div class="max-w-7xl mx-auto md:flex md:flex-col lg:flex-row lg:items-center flex-wrap gap-x-18 p-8 py-20">
+        <div class="md:text-left text-center md:w-auto w-full">
+            <h4 class="uppercase md:text-lg text-sm text-gray-300">
+                Company Executives
+            </h4>
+            <h1 class="md:text-5xl text-3xl uppercase text-white font-bold py-10"><span class="block">Meet</span>Our Team</h1>
+        </div>
+
+        <div class="md:flex md:justify-center md:items-center gap-x-8">
+            <div class="flex flex-col-reverse relative">
+                <div class="peer text-center py-4">
+                    <p class="text-lg/loose font-semibold text-white">Mike King Man</p>
+                    <p class="text-gray-400">Co founder, Manager</p>
+                </div>
+                <img src="../img/member1.jpg" class="lg:h-64 lg:w-64 md:h-52 md:w-52 w-full h-full object-cover rounded-sm grayscale-100 peer-hover:grayscale-0 hover:grayscale-0" alt="member1">
+                <div class="flex flex-col absolute md:top-1/4 top-1/3 -left-5 rounded-sm bg-blue-800 transition-all duration-400">
+                    
+                    <div class="group rounded-sm hover:bg-blue-600" title="facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 group-hover:rotate-y-[360deg] transition-all duration-400" fill="#fff" width="" height="" viewBox="0 0 32 32">
+                                <path d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"/>
+                        </svg>
+                    </div>
+
+                    <div class="group rounded-sm hover:bg-blue-400/50" title="twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 group-hover:rotate-y-[360deg] transition-all duration-400" fill="#fff" width="800px" height="800px" viewBox="0 0 32 32">
+                            <path d="M11.919 24.94c-2.548 0-4.921-.747-6.919-2.032a9.049 9.049 0 0 0 6.681-1.867 4.512 4.512 0 0 1-4.215-3.137c.276.054.559.082.848.082.412 0 .812-.056 1.193-.156a4.519 4.519 0 0 1-3.622-4.425v-.059a4.478 4.478 0 0 0 2.042.564 4.507 4.507 0 0 1-2.008-3.758c0-.824.225-1.602.612-2.268a12.811 12.811 0 0 0 9.303 4.715 4.517 4.517 0 0 1 7.692-4.115 9.107 9.107 0 0 0 2.866-1.094 4.542 4.542 0 0 1-1.983 2.498 9.08 9.08 0 0 0 2.592-.71 9.283 9.283 0 0 1-2.252 2.337c.008.193.014.388.014.583-.001 5.962-4.542 12.843-12.844 12.842"/>
+                        </svg>
+                    </div>         
+                </div> 
+            </div>
+
+
+            <div class="flex flex-col-reverse relative">
+                <div class="peer text-center py-4">
+                    <p class="text-lg/loose font-semibold text-white">Jack McCalister</p>
+                    <p class="text-gray-400">Web Developer</p>
+                </div>
+                <img src="../img/member2.jpg" class="lg:h-64 lg:w-64 md:h-52 md:w-52 w-full h-full object-cover rounded-sm grayscale-100 peer-hover:grayscale-0 hover:grayscale-0" alt="member2">
+                <div class="flex flex-col absolute md:top-1/4 top-1/3 -left-5 rounded-sm bg-blue-800 transition-all duration-400">
+                    
+                    <div class="group rounded-sm hover:bg-blue-600" title="facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 group-hover:rotate-y-[360deg] transition-all duration-400" fill="#fff" width="" height="" viewBox="0 0 32 32">
+                                <path d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"/>
+                        </svg>
+                    </div>
+
+                    <div class="group rounded-sm hover:bg-blue-400/50" title="twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 group-hover:rotate-y-[360deg] transition-all duration-400" fill="#fff" width="800px" height="800px" viewBox="0 0 32 32">
+                            <path d="M11.919 24.94c-2.548 0-4.921-.747-6.919-2.032a9.049 9.049 0 0 0 6.681-1.867 4.512 4.512 0 0 1-4.215-3.137c.276.054.559.082.848.082.412 0 .812-.056 1.193-.156a4.519 4.519 0 0 1-3.622-4.425v-.059a4.478 4.478 0 0 0 2.042.564 4.507 4.507 0 0 1-2.008-3.758c0-.824.225-1.602.612-2.268a12.811 12.811 0 0 0 9.303 4.715 4.517 4.517 0 0 1 7.692-4.115 9.107 9.107 0 0 0 2.866-1.094 4.542 4.542 0 0 1-1.983 2.498 9.08 9.08 0 0 0 2.592-.71 9.283 9.283 0 0 1-2.252 2.337c.008.193.014.388.014.583-.001 5.962-4.542 12.843-12.844 12.842"/>
+                        </svg>
+                    </div>         
+                </div> 
+            </div>
+
+
+            <div class="flex flex-col-reverse relative">
+                <div class="peer text-center py-4">
+                    <p class="text-lg/loose font-semibold text-white">Elisabeth Green</p>
+                    <p class="text-gray-400">Senior Designer</p>
+                </div>
+                <img src="../img/member3.jpg" class="lg:h-64 lg:w-64 md:h-52 md:w-52 w-full h-full object-cover rounded-sm grayscale-100 peer-hover:grayscale-0 hover:grayscale-0" alt="member3">
+                <div class="flex flex-col absolute md:top-1/4 top-1/3 -left-5 rounded-sm bg-blue-800 transition-all duration-400">
+                    
+                    <div class="group rounded-sm hover:bg-blue-600" title="facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 group-hover:rotate-y-[360deg] transition-all duration-400" fill="#fff" width="" height="" viewBox="0 0 32 32">
+                                <path d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"/>
+                        </svg>
+                    </div>
+
+                    <div class="group rounded-sm hover:bg-blue-400/50" title="twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 group-hover:rotate-y-[360deg] transition-all duration-400" fill="#fff" width="800px" height="800px" viewBox="0 0 32 32">
+                            <path d="M11.919 24.94c-2.548 0-4.921-.747-6.919-2.032a9.049 9.049 0 0 0 6.681-1.867 4.512 4.512 0 0 1-4.215-3.137c.276.054.559.082.848.082.412 0 .812-.056 1.193-.156a4.519 4.519 0 0 1-3.622-4.425v-.059a4.478 4.478 0 0 0 2.042.564 4.507 4.507 0 0 1-2.008-3.758c0-.824.225-1.602.612-2.268a12.811 12.811 0 0 0 9.303 4.715 4.517 4.517 0 0 1 7.692-4.115 9.107 9.107 0 0 0 2.866-1.094 4.542 4.542 0 0 1-1.983 2.498 9.08 9.08 0 0 0 2.592-.71 9.283 9.283 0 0 1-2.252 2.337c.008.193.014.388.014.583-.001 5.962-4.542 12.843-12.844 12.842"/>
+                        </svg>
+                    </div>         
+                </div> 
+            </div>
+
+
+        </div>
+    </div>
+</section>
+<!--End Our Team Section-->
+<br/><br/><br/><br/><br/><br/><br/>
+<!--Start Footer-->
+<footer class="bg-[url('../img/bg.png')] bg-cover bg-center bg-no-repeat">
+    <div class="max-w-7xl mx-auto p-3 px-6">
+        <div class="flex flex-wrap lg:justify-between justify-center py-8 border-b-1 border-b-gray-300/60">
+            <h2 class="text-3xl text-white font-light lg:py-0 py-4">SUBSCRIBE TO OUR <span class="font-bold">NEWSLETTER</span></h2>
+            <div class="w-full max-w-lg flex border border-white/30 rounded-sm bg-white/5  backdrop-blur-xs px-4 py-1">
+                <input 
+                    type="email" 
+                    placeholder="Enter your email address please ..." 
+                    class="flex-1 bg-transparent text-white placeholder-white/70 border-none focus:outline-none focus:ring-0"
+                />
+  
+                <button class="text-sm bg-white text-blue-800 font-semibold px-4 py-1.5 rounded-xs hover:bg-blue-800 hover:text-white transition">
+                    JOIN NOW
+                </button>
+            </div>
+
+        </div>
+        <div class="md:flex gap-3 justify-between items-start py-10">
+            <div class="flex flex-col md:max-w-xs md:items-start  items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80px" height="80px" viewBox="0 0 32 32">
+                    <title>Tailwind</title>
+                    <path d="M9,13.7q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q11.1,10.9,9,13.7ZM2,22.1q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q4.1,19.3,2,22.1Z" style="fill:#1b95e1"/>
+                </svg>
+                <p class="text-gray-300 md:text-left text-center text-base/loose">
+                    XTRA WordPress theme is the last theme you will ever have to buy for your business. 
+                    More powerful and easy to use than any other themes on the market with incredible features and friendly support.
+                </p>
+                <button class="mt-6 text-sm bg-transparent border-1 border-white/50 text-white font-semibold px-6 py-3 rounded-xs hover:bg-white hover:text-blue-800 transition">
+                    PURCHASE TAILWIND
+                </button>
+            </div>
+            <div class="md:flex md:flex-row md:items-start flex flex-col items-center md:pt-0 pt-14 md:gap-y-0 gap-y-8 gap-x-12 ">
+                <!--start useful links-->
+                <div class="text-white flex flex-col md:items-start items-center gap-y-3">
+                    <h3 class="text-white text-center font-semibold">USEFUL LINKS</h3>
+                    <div class="group flex items-center md:mt-10 mt-6 gap-x-2">
+                        <div class="w-2 h-2 flex items-center justify-center group-hover:translate-x-1 duration-100">
+                            <div class="w-full h-full rounded-full ring-2 ring-gray-300 group-hover:ring-white overflow-hidden group-hover:bg-white"></div>
+                        </div>
+                        <a href="#" class="text-gray-300 group-hover:text-white group-hover:translate-x-1 duration-100">Purchase now</a>
+                    </div>
+                    <div class="group flex items-center gap-x-2">
+                        <div class="w-2 h-2 flex items-center justify-center group-hover:translate-x-1 duration-100">
+                            <div class="w-full h-full rounded-full ring-2 ring-gray-300 group-hover:ring-white overflow-hidden group-hover:bg-white"></div>
+                        </div>
+                        <a href="#" class="text-gray-300 group-hover:text-white group-hover:translate-x-1 duration-100">Support</a>
+                    </div>
+                    <div class="group flex items-center gap-x-2">
+                        <div class="w-2 h-2 flex items-center justify-center group-hover:translate-x-1 duration-100">
+                            <div class="w-full h-full rounded-full ring-2 ring-gray-300 group-hover:ring-white overflow-hidden group-hover:bg-white"></div>
+                        </div>
+                        <a href="#" class="text-gray-300 group-hover:text-white group-hover:translate-x-1 duration-100">Documentation</a>
+                    </div>
+                    <div class="group flex items-center gap-x-2">
+                        <div class="w-2 h-2 flex items-center justify-center group-hover:translate-x-1 duration-100">
+                            <div class="w-full h-full rounded-full ring-2 ring-gray-300 group-hover:ring-white overflow-hidden group-hover:bg-white"></div>
+                        </div>
+                        <a href="#" class="text-gray-300 group-hover:text-white group-hover:translate-x-1 duration-100">Custom Services</a>
+                    </div>
+                    <div class="group flex items-center gap-x-2">
+                        <div class="w-2 h-2 flex items-center justify-center group-hover:translate-x-1 duration-100">
+                            <div class="w-full h-full rounded-full ring-2 ring-gray-300 group-hover:ring-white overflow-hidden group-hover:bg-white"></div>
+                        </div>
+                        <a href="#" class="text-gray-300 group-hover:text-white group-hover:translate-x-1 duration-100">Marketplaces</a>
+                    </div>
+                    
+                    <div class="group flex items-center gap-x-2">
+                        <div class="w-2 h-2 flex items-center justify-center group-hover:translate-x-1 duration-100">
+                            <div class="w-full h-full rounded-full ring-2 ring-gray-300 group-hover:ring-white overflow-hidden group-hover:bg-white"></div>
+                        </div>
+                        <a href="#" class="text-gray-300 group-hover:text-white group-hover:translate-x-1 duration-100">Portfolio Reviews</a>
+                    </div>
+                
+                </div>
+                <!--end useful links-->
+
+                <!--start shortcuts-->
+                <div class="text-white flex flex-col md:items-start items-center gap-y-3">
+                    <h3 class="text-white text-center font-semibold">SHORTCUTS</h3>
+                    <div class="group flex items-center md:mt-10 mt-6 gap-x-2">
+                        <div class="w-2 h-2 flex items-center justify-center group-hover:translate-x-1 duration-100">
+                            <div class="w-full h-full rounded-full ring-2 ring-gray-300 group-hover:ring-white overflow-hidden group-hover:bg-white"></div>
+                        </div>
+                        <a href="#" class="text-gray-300 group-hover:text-white group-hover:translate-x-1 duration-100">About Us</a>
+                    </div>
+                    <div class="group flex items-center gap-x-2">
+                        <div class="w-2 h-2 flex items-center justify-center group-hover:translate-x-1 duration-100">
+                            <div class="w-full h-full rounded-full ring-2 ring-gray-300 group-hover:ring-white overflow-hidden group-hover:bg-white"></div>
+                        </div>
+                        <a href="#" class="text-gray-300 group-hover:text-white group-hover:translate-x-1 duration-100">Services</a>
+                    </div>
+                    <div class="group flex items-center gap-x-2">
+                        <div class="w-2 h-2 flex items-center justify-center group-hover:translate-x-1 duration-100">
+                            <div class="w-full h-full rounded-full ring-2 ring-gray-300 group-hover:ring-white overflow-hidden group-hover:bg-white"></div>
+                        </div>
+                        <a href="#" class="text-gray-300 group-hover:text-white group-hover:translate-x-1 duration-100">News & Updates</a>
+                    </div>
+                    <div class="group flex items-center gap-x-2">
+                        <div class="w-2 h-2 flex items-center justify-center group-hover:translate-x-1 duration-100">
+                            <div class="w-full h-full rounded-full ring-2 ring-gray-300 group-hover:ring-white overflow-hidden group-hover:bg-white"></div>
+                        </div>
+                        <a href="#" class="text-gray-300 group-hover:text-white group-hover:translate-x-1 duration-100">Our Projects</a>
+                    </div>
+                    <div class="group flex items-center gap-x-2">
+                        <div class="w-2 h-2 flex items-center justify-center group-hover:translate-x-1 duration-100">
+                            <div class="w-full h-full rounded-full ring-2 ring-gray-300 group-hover:ring-white overflow-hidden group-hover:bg-white"></div>
+                        </div>
+                        <a href="#" class="text-gray-300 group-hover:text-white group-hover:translate-x-1 duration-100">Contact Us</a>
+                    </div>
+                    
+                    <div class="group flex items-center gap-x-2">
+                        <div class="w-2 h-2 flex items-center justify-center group-hover:translate-x-1 duration-100">
+                            <div class="w-full h-full rounded-full ring-2 ring-gray-300 group-hover:ring-white overflow-hidden group-hover:bg-white"></div>
+                        </div>
+                        <a href="#" class="text-gray-300 group-hover:text-white group-hover:translate-x-1 duration-100">Creative Career Tips</a>
+                    </div>
+                
+                </div>
+                <!-- end shortcuts-->
+
+                <!--start contact us-->
+                <div class="text-white flex flex-col md:items-start items-center gap-y-3">
+                    <h3 class="text-white text-center font-semibold">CONTACT US</h3>
+                    <div class="group flex items-center md:mt-10 mt-6 gap-x-2">
+                        <div class="w-2 h-2 flex items-center justify-center group-hover:translate-x-1 duration-100">
+                            <div class="w-full h-full rounded-full ring-2 ring-gray-300 group-hover:ring-white overflow-hidden group-hover:bg-white"></div>
+                        </div>
+                        <a href="#" class="text-gray-300 group-hover:text-white group-hover:translate-x-1 duration-100">General enquiries</a>
+                    </div>
+                    <div class="group flex items-center gap-x-2">
+                        <div class="w-2 h-2 flex items-center justify-center group-hover:translate-x-1 duration-100">
+                            <div class="w-full h-full rounded-full ring-2 ring-gray-300 group-hover:ring-white overflow-hidden group-hover:bg-white"></div>
+                        </div>
+                        <a href="#" class="text-gray-300 group-hover:text-white group-hover:translate-x-1 duration-100">Schedule a callback</a>
+                    </div>
+                    <div class="group flex items-center gap-x-2">
+                        <div class="w-2 h-2 flex items-center justify-center group-hover:translate-x-1 duration-100">
+                            <div class="w-full h-full rounded-full ring-2 ring-gray-300 group-hover:ring-white overflow-hidden group-hover:bg-white"></div>
+                        </div>
+                        <a href="#" class="text-gray-300 group-hover:text-white group-hover:translate-x-1 duration-100">General FAQ's</a>
+                    </div>
+                    <div class="group flex items-center gap-x-2">
+                        <div class="w-2 h-2 flex items-center justify-center group-hover:translate-x-1 duration-100">
+                            <div class="w-full h-full rounded-full ring-2 ring-gray-300 group-hover:ring-white overflow-hidden group-hover:bg-white"></div>
+                        </div>
+                        <a href="#" class="text-gray-300 group-hover:text-white group-hover:translate-x-1 duration-100">Get in Touch</a>
+                    </div>
+                    
+                
+                </div>
+                <!--end contact us-->
+            </div>
+        </div>
+        <div class="p-12 flex justify-center items-center border-t-1 border-t-gray-300/60">
+            <p class="text-gray-300 ">© <span id="nowdate"></span>. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+<!--End Footer-->
+
+<!-- <a href="https://xtratheme.com/elementor/corporate/" target="_blank">Copy site</a> -->
+
+</body>
+    <script src="./script.js" type="text/javascript"></script>
+
+</html>
